@@ -9,8 +9,7 @@ for o in range(8):
     for x in range(2):
         robotArm.moveLeft()    
     robotArm.grab()
-    for x in range(1):
-        robotArm.moveRight()
-        robotArm.drop()
+    robotArm.moveRight()
+    robotArm.drop()
 # Na jouw code wachten tot het sluiten van de window:
 robotArm.wait()
